@@ -1,18 +1,18 @@
 import type { PresetColorType, SeedToken } from '../internal';
 
 export const defaultPresetColors: PresetColorType = {
-  blue: '#1677FF',
+  greal: '#778383',
   purple: '#722ED1',
-  cyan: '#13C2C2',
-  green: '#52C41A',
+  teal: '	#00A69D',
+  green: '#54B574',
   magenta: '#EB2F96',
   /**
    * @deprecated Use magenta instead
    */
   pink: '#EB2F96',
-  red: '#F5222D',
+  red: '#F58683',
   orange: '#FA8C16',
-  yellow: '#FADB14',
+  yellow: '#FCD086',
   volcano: '#FA541C',
   geekblue: '#2F54EB',
   gold: '#FAAD14',
@@ -35,9 +35,7 @@ const seedToken: SeedToken = {
   colorBgBase: '',
 
   // Font
-  fontFamily: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-'Noto Color Emoji'`,
+  fontFamily: `'Open Sans'`,
   fontFamilyCode: `'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace`,
   fontSize: 14,
 
